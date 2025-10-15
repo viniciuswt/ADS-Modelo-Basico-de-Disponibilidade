@@ -97,9 +97,6 @@ output/
 └── relatorio_disponibilidade_ufs.txt   # Relatório textual completo
 ```
 
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE] para mais detalhes.
 
 ## 👨‍💻 Autor
 
