@@ -100,4 +100,4 @@ output/
 
 ## 👨‍💻 Autor
 
-  - **[Marcos Vinícius]** 
+  - **Marcos Vinícius** 
