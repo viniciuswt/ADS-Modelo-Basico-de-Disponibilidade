@@ -1,0 +1,35 @@
+================================================================================
+Relatório de Análise de Disponibilidade da Conexão ao Site da UFS
+================================================================================
+Modelo de Componentes Derivado do Traceroute executado na rede interna da UFS:
+
+[Equip. Local] ---> [Rede Interna UFS] ---> [Servidor Web UFS]
+
+--------------------------------------------------------------------------------
+Componente: 1. Equipamento Local
+  - MTTF: 2,500.0 horas | MTTR: 4.0 horas
+  - Disponibilidade (A_i): 0.99840256 (99.840256%)
+--------------------------------------------------
+Componente: 2. Rede Interna UFS
+  - MTTF: 13,000.0 horas | MTTR: 2.0 horas
+  - Disponibilidade (A_i): 0.99984618 (99.984618%)
+--------------------------------------------------
+Componente: 3. Servidor Web UFS
+  - MTTF: 12,000.0 horas | MTTR: 1.5 horas
+  - Disponibilidade (A_i): 0.99987502 (99.987502%)
+--------------------------------------------------
+
+================================================================================
+Resultados Consolidados do Modelo
+================================================================================
+Disponibilidade Total do Sistema (A_total = Π A_i): 0.99812421
+Disponibilidade Percentual (Classe de Nines): 99.812421%
+
+Isso equivale a um tempo médio de inatividade anual de:
+ -> 16.43 horas por ano.
+ -> Aproximadamente: 0 dias, 16 horas e 25 minutos por ano.
+================================================================================
+
+Gerando gráficos da análise...
+ -> Gráfico de barras salvo em: output/disponibilidade_componentes.png
+ -> Gráfico de pizza salvo em: output/contribuicao_indisponibilidade.png
